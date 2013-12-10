@@ -2,9 +2,9 @@
 
 class User extends CI_Controller {
     public function show($page) {
-        $this->load->view('includes/header');
+        $this->load->view('header');
         $this->load->view($page);
-        $this->load->view('includes/footer');
+        $this->load->view('footer');
     }
 
     public function index() {

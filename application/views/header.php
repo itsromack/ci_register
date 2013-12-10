@@ -12,7 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
-
+    <style type="text/css">
+      .main-content {margin-top: 70px;}
+    </style>
   </head>
 
   <body>
@@ -26,14 +28,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="/user/">Project</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="/user/">Home</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container main-content">
