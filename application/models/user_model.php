@@ -1,5 +1,5 @@
 <?php
-class User_model extends CI_Model {
+class Users_model extends CI_Model {
     var $first_name;
     var $last_name;
     var $email_address;
@@ -7,7 +7,7 @@ class User_model extends CI_Model {
     var $birth_date;
     var $gender;
     var $username;
-    var $password;
+    var $passwd;
 
     public function __construct() {
         parent::__construct();
